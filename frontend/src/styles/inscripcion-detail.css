@@ -1,0 +1,191 @@
+.enrollment-detail-modal {
+  width:
+    min(
+      880px,
+      calc(
+        100vw - 2rem
+      )
+    );
+}
+
+
+.enrollment-detail-body {
+  display: grid;
+
+  padding: 1.1rem;
+
+  gap: 1rem;
+}
+
+
+.enrollment-detail-highlight {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    var(--ps-border);
+
+  border-radius: 12px;
+
+  background:
+    var(--ps-primary-soft);
+}
+
+
+.enrollment-detail-highlight > div {
+  display: grid;
+
+  padding: 0.9rem;
+
+  gap: 0.2rem;
+
+  border-right:
+    1px solid
+    var(--ps-border);
+}
+
+
+.enrollment-detail-highlight > div:last-child {
+  border-right: 0;
+}
+
+
+.enrollment-detail-highlight span,
+.enrollment-detail-grid span,
+.enrollment-detail-observations > span {
+  color:
+    var(--ps-muted);
+
+  font-size: 0.6rem;
+  font-weight: 700;
+
+  letter-spacing:
+    0.05em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.enrollment-detail-highlight strong {
+  color:
+    var(--ps-text);
+
+  font-size: 0.82rem;
+}
+
+
+.enrollment-detail-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 0.7rem;
+}
+
+
+.enrollment-detail-grid article {
+  display: grid;
+
+  min-width: 0;
+
+  padding: 0.8rem;
+
+  gap: 0.25rem;
+
+  border:
+    1px solid
+    var(--ps-border);
+
+  border-radius: 11px;
+
+  background:
+    #fafbfc;
+}
+
+
+.enrollment-detail-grid strong {
+  overflow-wrap: anywhere;
+
+  color:
+    var(--ps-text);
+
+  font-size: 0.72rem;
+}
+
+
+.enrollment-detail-observations {
+  padding: 0.9rem;
+
+  border:
+    1px solid
+    var(--ps-border);
+
+  border-radius: 11px;
+
+  background:
+    #fafbfc;
+}
+
+
+.enrollment-detail-observations p {
+  margin:
+    0.4rem
+    0
+    0;
+
+  color:
+    var(--ps-text-soft);
+
+  font-size: 0.72rem;
+
+  line-height: 1.55;
+}
+
+
+.enrollment-success-actions {
+  display: flex;
+
+  width: 100%;
+
+  justify-content: center;
+
+  gap: 0.7rem;
+
+  flex-wrap: wrap;
+}
+
+
+@media (
+  max-width: 760px
+) {
+  .enrollment-detail-highlight,
+  .enrollment-detail-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+  .enrollment-detail-highlight > div {
+    border-right: 0;
+
+    border-bottom:
+      1px solid
+      var(--ps-border);
+  }
+
+  .enrollment-detail-highlight > div:last-child {
+    border-bottom: 0;
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "status": "PASSED",
+  "base_url": "http://127.0.0.1:8000",
+  "suffix": "20260926000333_d8c5ed",
+  "started_at": "2026-09-26T00:03:33",
+  "steps": [
+    {
+      "step": "health",
+      "status": "PASSED"
+    },
+    {
+      "step": "401 sin token en endpoint protegido",
+      "status": "PASSED"
+    },
+    {
+      "step": "login + /auth/me + preflight permisos",
+      "status": "PASSED"
+    },
+    {
+      "step": "RBAC: lectura permitida y escritura/auditoría denegadas",
+      "status": "PASSED"
+    },
+    {
+      "step": "catálogo académico",
+      "status": "PASSED"
+    },
+    {
+      "step": "estudiante + inscripción",
+      "status": "PASSED"
+    },
+    {
+      "step": "precio + obligación desde precio",
+      "status": "PASSED"
+    },
+    {
+      "step": "pago manual + aplicación + recibo idempotente",
+      "status": "PASSED"
+    },
+    {
+      "step": "pago automático + saldo a favor + aplicación",
+      "status": "PASSED"
+    },
+    {
+      "step": "estado de cuenta",
+      "status": "PASSED"
+    },
+    {
+      "step": "evaluación + solvencia + verificación + idempotencia",
+      "status": "PASSED"
+    },
+    {
+      "step": "auditoría transversal",
+      "status": "PASSED"
+    },
+    {
+      "step": "reportes financieros",
+      "status": "PASSED"
+    },
+    {
+      "step": "desactivación del usuario limitado E2E",
+      "status": "PASSED"
+    }
+  ],
+  "ids": {
+    "role": 2,
+    "employee": 3,
+    "limited_user": 2,
+    "ciclo": 5,
+    "carrera": 8,
+    "carrera_ciclo": 8,
+    "grado": 8,
+    "student": 8,
+    "inscription": 14,
+    "price": 9,
+    "obligation_from_price": 30,
+    "manual_payment": 14,
+    "payment_application": 28,
+    "receipt": 37,
+    "automatic_payment": 15,
+    "saldo_favor": 4,
+    "manual_obligation": 31,
+    "evaluation": 5,
+    "solvency": 5
+  },
+  "audit_verified": [
+    {
+      "accion": "CREAR_ROL",
+      "id_registro": 2
+    },
+    {
+      "accion": "REEMPLAZAR_PERMISOS_ROL",
+      "id_registro": 2
+    },
+    {
+      "accion": "CREAR_USUARIO",
+      "id_registro": 2
+    },
+    {
+      "accion": "CREAR_INSCRIPCION",
+      "id_registro": 14
+    },
+    {
+      "accion": "CREAR_OBLIGACION_DESDE_PRECIO",
+      "id_registro": 30
+    },
+    {
+      "accion": "REGISTRAR_PAGO",
+      "id_registro": 14
+    },
+    {
+      "accion": "APLICAR_PAGO",
+      "id_registro": 28
+    },
+    {
+      "accion": "GENERAR_RECIBO",
+      "id_registro": 37
+    },
+    {
+      "accion": "REGISTRAR_PAGO_AUTOMATICO",
+      "id_registro": 15
+    },
+    {
+      "accion": "CREAR_OBLIGACION_MANUAL",
+      "id_registro": 31
+    },
+    {
+      "accion": "APLICAR_SALDO_FAVOR",
+      "id_registro": 4
+    },
+    {
+      "accion": "GENERAR_SOLVENCIA",
+      "id_registro": 5
+    }
+  ],
+  "actor_id": 1,
+  "actor_username": "admin",
+  "finished_at": "2026-09-26T00:03:36"
+}

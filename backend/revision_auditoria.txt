@@ -1,0 +1,86 @@
+=== ENDPOINTS QUE MODIFICAN DATOS ===
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\auth.py:31: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\becas.py:37: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\becas.py:78: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\becas.py:99: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\becas.py:144: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\becas.py:165: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\cambios_carrera.py:36: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\catalogo_academico.py:38: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\catalogo_academico.py:81: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\catalogo_academico.py:124: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\catalogo_academico.py:181: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\contactos.py:33: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\contactos.py:77: @router.put(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\contactos.py:98: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\descuentos.py:33: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\descuentos.py:100: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\descuentos.py:121: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\documentos_expediente.py:38: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\documentos_expediente.py:93: @router.put(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\empleados.py:42: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\empleados.py:114: @router.put(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\empleados.py:139: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\estudiantes.py:28: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\estudiantes.py:92: @router.put(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\estudiantes.py:113: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\evaluaciones.py:37: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\evaluaciones.py:115: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\expedientes.py:29: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\expedientes.py:90: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\inscripciones.py:36: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\inscripciones.py:122: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\movimientos_saldo.py:33: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\notificaciones.py:45: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\notificaciones.py:70: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\notificaciones.py:147: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\obligaciones.py:33: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\obligaciones.py:53: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\obligaciones.py:73: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\pagos.py:39: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\pagos.py:60: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\pagos.py:121: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\pagos.py:167: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\pagos.py:186: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\permisos.py:40: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\permisos.py:85: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\precios.py:30: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\precios.py:98: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\roles.py:43: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\roles.py:125: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\roles.py:150: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\roles.py:175: @router.put(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\saldos_favor.py:72: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\solvencias.py:32: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\tipos_documento.py:33: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\tipos_documento.py:74: @router.put(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\tipos_documento.py:95: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\usuarios.py:41: @router.post(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\usuarios.py:115: @router.put(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\usuarios.py:140: @router.patch(
+C:\Users\William\Documents\William\Noveno Semestre\Proyecto de Graduación\PaymentSchool\backend\app\api\routers\usuarios.py:165: @router.patch(
+
+=== LLAMADAS A AUDITORIA ===
+AuditoriaService\.registrar:279: AuditoriaService.registrar(
+AuditoriaService\.registrar:207: AuditoriaService.registrar(
+AuditoriaService\.registrar:131: AuditoriaService.registrar(
+AuditoriaService\.registrar:342: AuditoriaService.registrar(
+AuditoriaService\.registrar:431: AuditoriaService.registrar(
+AuditoriaService\.registrar:98: AuditoriaService.registrar(
+AuditoriaService\.registrar:175: AuditoriaService.registrar(
+AuditoriaService\.registrar:329: AuditoriaService.registrar(
+
+=== COMMITS EN SERVICES ===
+
+=== INSERT / UPDATE / DELETE DIRECTOS EN REPOSITORIES ===
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:54: UPDATE school.cambio_carrera
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:1: from sqlalchemy import select, update
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:54: update(Contacto)
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:56: UPDATE school.movimiento_saldo
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:18: INSERT INTO school.notificacion (
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:48: INSERT INTO
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:392: UPDATE
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:119: DELETE FROM school.rol_permiso
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:133: INSERT INTO school.rol_permiso (
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:206: DELETE FROM school.usuario_rol
+\b(INSERT INTO|UPDATE|DELETE FROM)\b:220: INSERT INTO school.usuario_rol (

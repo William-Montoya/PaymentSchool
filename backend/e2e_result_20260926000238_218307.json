@@ -1,0 +1,20 @@
+{
+  "status": "FAILED",
+  "base_url": "http://127.0.0.1:8000",
+  "suffix": "20260926000238_218307",
+  "started_at": "2026-09-26T00:02:38",
+  "steps": [
+    {
+      "step": "health",
+      "status": "PASSED"
+    },
+    {
+      "step": "401 sin token en endpoint protegido",
+      "status": "PASSED"
+    }
+  ],
+  "ids": {},
+  "audit_verified": [],
+  "finished_at": "2026-09-26T00:02:39",
+  "error": "POST /api/auth/login devolvió 401; esperado (200,). Respuesta: {'detail': 'Usuario o contraseña incorrectos'}"
+}
