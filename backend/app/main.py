@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 from app.core.database import engine
 from app.api.routers.estudiantes import router as estudiantes_router
@@ -26,11 +27,24 @@ from app.api.routers.roles import router as roles_router
 from app.api.routers.usuarios import router as usuarios_router
 from app.api.routers.auth import router as auth_router
 from app.api.routers.auditorias import router as auditorias_router
+from app.core.config import settings
 
 app = FastAPI(
     title="Sistema de Control de Pagos",
     description="API para la gestión académica y financiera del colegio",
     version="1.0.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        origin.strip()
+        for origin in settings.cors_origins.split(",")
+        if origin.strip()
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 

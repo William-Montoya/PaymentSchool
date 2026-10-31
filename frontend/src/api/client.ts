@@ -8,10 +8,26 @@ import {
 export const AUTH_UNAUTHORIZED_EVENT =
   'paymentschool:unauthorized'
 
+function getApiBaseUrl(): string {
+  const configuredUrl =
+    import.meta.env.VITE_API_URL?.trim()
+
+  if (!configuredUrl) {
+    return '/api'
+  }
+
+  const normalizedUrl = configuredUrl.replace(
+    /\/+$/,
+    '',
+  )
+
+  return normalizedUrl.endsWith('/api')
+    ? normalizedUrl
+    : `${normalizedUrl}/api`
+}
+
 const apiClient = axios.create({
-  baseURL:
-    import.meta.env.VITE_API_URL ??
-    '/api',
+  baseURL: getApiBaseUrl(),
 
   headers: {
     Accept: 'application/json',

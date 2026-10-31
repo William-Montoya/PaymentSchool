@@ -11,6 +11,10 @@ class Settings(BaseSettings):
     database_user: str
     database_password: str
     paymentschool_storage_dir: str = "storage"
+    cors_origins: str = (
+        "http://localhost:5173,"
+        "http://127.0.0.1:5173"
+    )
 
     jwt_secret_key: str
     jwt_algorithm: str = "HS256"
