@@ -15,6 +15,10 @@ class Settings(BaseSettings):
         "http://localhost:5173,"
         "http://127.0.0.1:5173"
     )
+    cors_origin_regex: str | None = (
+        r"^https://payment-school-[a-z0-9-]+-william-4d5e"
+        r"\.vercel\.app$"
+    )
 
     jwt_secret_key: str
     jwt_algorithm: str = "HS256"
